@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration:none;
+    margin: 0;
+    padding: 0;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2px 80px 2px 80px;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 5px;
+    margin-left: -15px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 24px;
+    align-self: center;
+}
+
+.menu{
+    display:flex;
+    margin-left: auto;
+    flex-shrink: 1;
+    font-size: 30px;
+    gap: 25px;
+}
+.menu_items{
+    color: #F9FAF8;
+}
+
+.sub_section{
+    display: flex;
+}
+.sub_left{
+    display:flex;
+    flex-direction: column;
+}
+.sub_left_text{
+    display:flex;
+    flex-shrink:1;
+    font-weight: bolder;
+    width: 60%;
+    margin-top: 40px;
+    font-size: 48px;
+    text-decoration:underline;
+}
+.sub_image{
+    width: 350px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: 55px;
+}
+.sub_left_description{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 60%;
+    font-size: 20px;
+}
+
+.information{
+    padding-bottom: 30px;
+}
+.heading{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.information .box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.square-box{
+    border-radius: 10px;
+  }
+  
+.square-box img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* Initial Solution for these both classes. Problems occured. SO modified to the above updated code. */
+/*.square-box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.square-box img {
+    width: 100%;
+    height: 100%;
+}
+*/
+.memoir{
+    padding-top:10px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.information{
+    background-image: url('Resources/white_background.jpg');
+}
+.information h1{
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.inspiration{
+    background-color: #E5E7EB;
+    padding: 50px;
+    font-family:cursive;
+    text-align: center;
+    font-size: 60px;
+}
+
+.footer{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding:20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.signup{
+    align-self:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #F9FAF8;
+}
+
+.column_footer{
+    display:flex;
+    flex-direction: column;
+}
+
+.first_footer{
+    font-weight: bold;
+}
+
+.signup{
+    cursor: pointer;
+}
+
+.credits{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
